@@ -101,7 +101,7 @@ td {
 /* Estilos para pantallas mayores a 570px */
 @media screen and (max-width: 570px) {
   .gray-line {  
-    height: 40px; /* Altura fija para cada elemento */
+    height: 64px; /* Altura fija para cada elemento */
     display: flex;
     align-items: center;
   }
