@@ -7,11 +7,16 @@ h1 {
   margin: 0 auto;
   width: 80%;
   text-align: center;
-  margin-top: 48px;
+  margin-top: 88px;
   margin-bottom: 24px;
   font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
 }
 .inicialText {
+  margin: 0 auto;
+  width: 80%;
+}
+.code {
   margin: 0 auto;
   width: 80%;
 }
@@ -97,16 +102,53 @@ td {
 .gray-line {
   border-bottom: 1px solid gray;
 }
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #88ccf1;
+  color: #fff;
+  padding: 10px;
+  z-index: 9999;
+}
+.lista {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50px;
+  background: linear-gradient(to right, #99b2fa, #2959ba) center/0% 100%
+    no-repeat;
+  color: #fff; /* Ajusta el color del texto según tus necesidades */
+  transition: background 0.8s ease-in-out, color 0.4s ease-in-out;
+}
+.lista:hover {
+  background: radial-gradient(
+    circle at center,
+    #2959ba,
+    #1a3980
+  ); /* Configura el color y el tamaño final del fondo */
+  transition-delay: 0.2s; /* Agrega un retraso en la transición inversa */
+  color: #fff; /* Ajusta el color del texto al hacer hover según tus necesidades */
+}
+
 /* media querys */
 /* Estilos para pantallas mayores a 570px */
 @media screen and (max-width: 570px) {
-  .gray-line {  
+  .gray-line {
     height: 80px; /* Altura fija para cada elemento */
     display: flex;
     align-items: center;
   }
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #88ccf1;
+    color: #fff;
+    padding: 10px;
+    z-index: 9999;
+  }
 }
 
 /* Estilos para pantallas menores o iguales a 570px */
-
-
