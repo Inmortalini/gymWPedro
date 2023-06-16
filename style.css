@@ -4,6 +4,16 @@ body {
   padding: 0;
   font-family: "Bebas Neue", sans-serif;
 }
+.logo-container {
+  text-align: center;
+}
+
+
+
+.logo-container img {
+  width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
 h1 {
   margin: 0 auto;
   width: 80%;
@@ -161,18 +171,26 @@ td {
   width: 800px;
   height: 100px;
 }
-.titleRutinas{
+.footText {
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 800px;
+  height: 100px;
+  color: #1a3980;
+}
+.titleRutinas {
   font-size: 34px;
 }
 
 .titleRutinas {
   display: flex;
-  margin: 0 auto;
+  margin: 10px auto 25px;
   width: 200px;
 }
 .rustic-button {
   display: flex;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 200px;
   background-color: #88ccf1;
   color: #ffffff;
@@ -189,4 +207,3 @@ td {
   background-color: #2959ba;
   cursor: pointer;
 }
-
