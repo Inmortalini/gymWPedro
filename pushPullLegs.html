@@ -41,9 +41,7 @@
         <header>
           <nav id="navbar">
             <ul>
-              <a href="#push"><li class="lista">Push</li></a>
-              <a href="#pull"><li class="lista">Pull</li></a>
-              <a href="#legs"><li class="lista">Legs</li></a>
+
               <li class="nav-item">
                 <a
                   class="lista"
@@ -71,37 +69,62 @@
               <td>
                 <h2>Ejercicio</h2>
 
-                <a
-                  href="https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Close-Grip-Bench-Press_28c01bfb-504d-43a6-8264-bd2101d317b9_600x600.png?v=1612137028"
-                  target="_blank"
-                  ><p class="gray-line">Press de Banca</p></a
-                >
-
-                <a
-                  href="https://www.ilovefit.org/wp-content/uploads/2017/07/dips-o-paralelas-triceps.jpg"
-                  target="_blank"
-                  ><p class="gray-line">Fondos en paralelas</p></a
-                >
-
-                <a
-                  href="https://i.blogs.es/16eea9/press-militar1/450_1000.webp"
-                  target="_blank"
-                  ><p class="gray-line">Press militar</p></a
-                >
-                <a
-                  href="https://eresfitness.com/wp-content/uploads/2019/09/Extensi%C3%B3n-de-tr%C3%ADceps-tras-nuca-con-mancuerna.jpg"
-                  target="_blank"
-                  ><p class="gray-line">
+                <div>
+                  <p class="gray-line" onclick="toggleImageVisibility(this)">
+                    Press de Banca
+                  </p>
+                  <img
+                  class="imageExercie"
+                    src="imagenes/pressBanca.webp"
+                    alt="pressmilitar"
+                    style="display: none"
+                  />
+                </div>
+                <div>
+                  <p class="gray-line" onclick="toggleImageVisibility(this)">
+                    Fondos en paralelas
+                  </p>
+                  <img
+                  class="imageExercie"
+                    src="imagenes/fondoParalela.jpg"
+                    alt="pressmilitar"
+                    style="display: none"
+                  />
+                </div>
+                <div>
+                  <p class="gray-line" onclick="toggleImageVisibility(this)">
+                    Press Militar
+                  </p>
+                  <img
+                  class="imageExercie"
+                    src="imagenes/pressMilitar.webp"
+                    alt="pressmilitar"
+                    style="display: none"
+                  />
+                </div>
+                <div>
+                  <p class="gray-line" onclick="toggleImageVisibility(this)">
                     Extensiones de tríceps con mancuernas
-                  </p></a
-                >
-                <a
-                  href="https://eresfitness.com/wp-content/uploads/2019/07/Press-de-banca-inclinado-con-mancuernas-Musculos.jpg"
-                  target="_blank"
-                  ><p class="gray-line">
+                  </p>
+                  <img
+                  class="imageExercie"
+                    src="imagenes/extensionesTricep.jpg"
+                    alt="tricepextension"
+                    style="display: none"
+                  />
+                </div>
+                <div>
+                  <p class="gray-line" onclick="toggleImageVisibility(this)">
                     Prensa de pecho con mancuernas inclinado
-                  </p></a
-                >
+                  </p>
+                  <img
+                  class="imageExercie"
+                    src="/imagenes/pechoflyssuperiores.jpg"
+                    alt="pechofly"
+                    style="display: none"
+                  />
+                </div>
+              
               </td>
               <td colspan="2">
                 <h2>Repeticiones</h2>
@@ -110,6 +133,7 @@
                 <p class="gray-line">4 series de 8-12 repeticiones</p>
                 <p class="gray-line">3 series de 12-15 repeticiones</p>
                 <p class="gray-line">3 series de 12-15 repeticiones</p>
+                
               </td>
             </tr>
             <thead>
