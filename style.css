@@ -23,6 +23,12 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 48px;
 }
+h2{
+  margin:0 auto;
+  width: 80%;
+  text-align: left;
+  
+}
 .inicialText {
   margin: 0 auto;
   width: 80%;
