@@ -13,6 +13,10 @@ body {
 .logo-container img {
   width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
   height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  transition: transform 0.3 ease;
+}
+.logo-container img:hover{
+  transform:scale(1.5);
 }
 h1 {
   margin: 0 auto;
