@@ -8,15 +8,13 @@ body {
   text-align: center;
 }
 
-
-
 .logo-container img {
   width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
   height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
   transition: transform 0.3 ease;
 }
-.logo-container img:hover{
-  transform:scale(1.5);
+.logo-container img:hover {
+  transform: scale(1.5);
 }
 h1 {
   margin: 0 auto;
@@ -27,11 +25,10 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 48px;
 }
-h2{
-  margin:0 auto;
+h2 {
+  margin: 0 auto;
   width: 80%;
   text-align: left;
-  
 }
 .inicialText {
   margin: 0 auto;
@@ -149,7 +146,7 @@ td {
     #1a3980
   ); /* Configura el color y el tamaño final del fondo */
   transition-delay: 0.2s; /* Agrega un retraso en la transición inversa */
-  color: #fff; /* Ajusta el color del texto al hacer hover según tus necesidades */
+  color: #010000; /* Ajusta el color del texto al hacer hover según tus necesidades */
 }
 
 /* media querys */
@@ -219,6 +216,6 @@ td {
 }
 /* prueba */
 
-.imageExercie{
+.imageExercie {
   width: 100%;
 }
