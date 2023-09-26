@@ -1,4 +1,4 @@
-# gymWPedro
+# gymWPedro ☑️
 
 **Description:**
 This is a project aimed at assisting individuals with their gym routines. It will be regularly updated to provide support for various other aspects crucial to the gym experience, including nutrition, motivation tips, and more.
